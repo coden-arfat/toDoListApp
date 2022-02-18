@@ -1,0 +1,36 @@
+body{
+  background-image: linear-gradient(90deg ,rgb(43, 43, 32),rgba(13, 14, 11, 0.698));
+}
+h1{
+  text-align: center;
+  color: rgba(236, 226, 226, 0.849);
+}
+.todoP{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(233, 158, 20, 0.856);
+  margin: 2rem;
+  text-align: center;
+  border: solid 0;
+  border-radius: 18px;
+  width: 50%;
+  li{
+    list-style: none;
+    flex: 1;
+    padding: .2rem;
+  }
+  i{
+    padding: .2rem;
+    background-color: brown;
+    height: 100%;
+    color: burlywood;
+  }
+}
+#form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 70%;
+}

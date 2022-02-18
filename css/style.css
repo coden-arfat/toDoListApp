@@ -1,0 +1,59 @@
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2b2b20), to(rgba(13, 14, 11, 0.698)));
+  background-image: linear-gradient(90deg, #dd9191, rgba(223, 29, 29, 0.698));
+}
+
+h1 {
+  text-align: center;
+  color: rgba(236, 226, 226, 0.849);
+}
+
+.todoP {
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: rgba(233, 158, 20, 0.856);
+  margin: 2rem;
+  text-align: center;
+  border: solid 0;
+  border-radius: 18px;
+  width: 50%;
+}
+
+.todoP li {
+  list-style: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: .2rem;
+}
+
+.todoP i {
+  padding: .2rem;
+  background-color: brown;
+  height: 100%;
+  color: burlywood;
+}
+
+#form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */

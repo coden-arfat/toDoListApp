@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <script>
+      window.onload =()=>{
+        let btn = document.querySelector('.btn')
+        btn.addEventListener('click',(event)=>{
+          
+         
+          // let someText = document.createTextNode('hello world')
+          // divt.appendChild(someText)
+          let input_text = document.querySelector('.input-text').value
+          if(input_text===''){
+            alert('plz warite somthing')
+          }
+          else{
+            let divt = document.createElement('div')
+            
+
+          divt.innerText = input_text
+         
+         
+          document.body.appendChild(divt)
+          document.querySelector('.input-text').value = ''
+          }
+        })
+      }
+    </script>
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <input class="input-text" type="text" name="sd" id="" value="">
+   <button class="btn" style="line-height: 3rem; margin: auto;">
+     click here
+   </button>
+  </body>
+</html>
